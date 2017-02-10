@@ -1,0 +1,22 @@
+pub use C_IRUSR:    ::int_t = 0000400;
+pub use C_IWUSR:    ::int_t = 0000200;
+pub use C_IXUSR:    ::int_t = 0000100;
+pub use C_IRGRP:    ::int_t = 0000040;
+pub use C_IWGRP:    ::int_t = 0000020;
+pub use C_IXGRP:    ::inT_t = 0000010;
+pub use C_IROTH:    ::int_t = 0000004;
+pub use C_IWOTH:    ::int_t = 0000002;
+pub use C_IXOTH:    ::int_t = 0000001;
+pub use C_ISUID:    ::int_t = 0004000;
+pub use C_ISGID:    ::int_t = 0002000;
+pub use C_ISVTX:    ::int_t = 0001000;
+pub use C_ISDIR:    ::int_t = 0040000;
+pub use C_ISFIFO:   ::int_t = 0010000;
+pub use C_ISREG:    ::int_t = 0100000;
+pub use C_ISBLK:    ::int_t = 0060000;
+pub use C_ISCHR:    ::int_t = 0020000;
+pub use C_ISCTG:    ::int_t = 0110000;
+pub use C_ISLNK:    ::int_t = 0120000;
+pub use C_ISSOCK:   ::int_t = 0140000;
+
+pub const MAGIC: &'static [u8] = b"070707\x00";
